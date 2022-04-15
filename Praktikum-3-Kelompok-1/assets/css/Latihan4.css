@@ -1,0 +1,125 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:royalblue;
+  font-family:sans-serif;
+}
+
+img{
+  height: 40px; width: 40px; padding-right: 20px; padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi .naviActive {
+  background-color: deepskyblue;
+}
+
+li a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.section{
+  background-color: rgb(238, 255, 255); 
+  text-align: center; 
+  padding: 20px 580px;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: Goudy;
+  src: url(GOUDOSB.TTF);
+}
+
+.section > h2{
+  font-style: italic;
+  font-size: 30px;
+  font-family: 'Goudy';
+}
+
+#artikel{
+  margin: 50px;
+}
+
+.box {
+  border: 1px solid;
+  width: 40%;
+  height: max-content;
+  float: right;
+  margin: 5px;
+  box-sizing: border-box;
+  border-color: royalblue;
+}
+
+.box > h3{
+ padding: 5px;
+}
+
+.box > p{
+  padding: 5px;
+}
+
+.box > img {
+  margin: 30px 0 0 55px;
+  width: 40vh;
+  height: 30vh;
+  
+}
+
+.box2 > button{
+  margin: 10px;
+  padding: 0px 20px;
+  border-color: royalblue;
+  color: royalblue;
+}
+
+.box2 > p{
+  float: right;
+  margin: 10px;
+  color: cadetblue;
+}
+
+.box2 > button:hover{
+  background-color: blue;
+  color: white;
+}
+
+.outer-box {
+  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-left: 200px;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Profil{
+  margin: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  margin: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
